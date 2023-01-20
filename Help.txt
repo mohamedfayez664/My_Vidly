@@ -1,0 +1,29 @@
+return Type:::::::::::
+			//return Content("test");
+			// return HttpNotFound();
+			//return new EmptyResult();
+			//return RedirectToAction("Index", "Home", new {page=1,sortBy="name"} );
+			
+	_context.Dispose();
+	Eager Loading
+
+
+
+	try{
+	 ////
+	 }
+	 catch(DbEntityValidationException e){
+	 Console.WriteLine(e);
+	 }
+
+
+	=========================NEED TO MANAGE+++++++++++++++++++++++
+>>>> Date time added automaticly   and check if null????????????
+Single Page Application
+lec7
+
+
+
+==============================================================================CV
+=================================Validation
+====bagnation and sorting

@@ -1,0 +1,38 @@
+﻿@model Vidly.ViewModels.MovieCustomerVM
+
+
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ 
+    var className = Model.Customers.Count > 2 ? "pupular" : null;
+}
+
+@* This Comment *@
+
+<style>
+    .pupular {
+        color: red;
+    }
+
+</style>
+
+<h2 class="@className">@Model.Movie.Name </h2>
+
+@if (Model.Customers.Count == 0)
+{
+    <Text>No One has rented before. </Text>
+}
+else
+{
+    <ul>
+        @foreach (var cus in Model.Customers)
+        {
+            <li>
+                @cus.Name
+            </li>
+        }
+    </ul>
+}
